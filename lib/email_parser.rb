@@ -9,7 +9,7 @@ class EmailAddressParser
     @email_addresses.split.map do |email|
       email.split(", ")
     end
-    @email_addresses.flatten.uniq
+    .flatten.uniq
   end
   
 end
